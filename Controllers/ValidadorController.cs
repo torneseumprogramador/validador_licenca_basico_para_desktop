@@ -30,7 +30,8 @@ namespace api_validador_binario.Controllers
             licencas.Add("459393n2n21odfcoi32n");
             licencas.Add("343i22n2m1k11");
             licencas.Add("4323232dssddssd");
-
+            licencas.Add("4323ssddss232dssddssd");
+            
             if(licencas.Contains(licenca.Chave)){
                 return new {
                     Sucesso = true
